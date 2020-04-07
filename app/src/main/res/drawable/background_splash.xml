@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@color/focus_box_corner"/>
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/ic_launcher"/>
+        <shape>
+            <corners android:radius="10.0dip" />
+            <padding android:left="0.0dip" android:top="0.0dip" android:right="0.0dip" android:bottom="0.0dip" />
+        </shape>
+    </item>
+</layer-list>

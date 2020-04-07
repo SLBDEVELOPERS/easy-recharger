@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/overlayroot" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ads="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@+id/black_overlaytop" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="120.0dip" android:scaleType="fitXY" android:layout_weight="1.0" ads:srcCompat="@drawable/bg2" />
+        <ImageView android:id="@+id/black_overlay_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="120.0dip" android:scaleType="fitXY" android:layout_weight="1.0" ads:srcCompat="@drawable/bg1" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RechargeActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:background="@drawable/blur_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:text="EASY RECHARGER"
+            android:layout_below="@id/icon"
+            android:layout_centerHorizontal="true"
+            />
+
+        <LinearLayout
+            android:id="@+id/top_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="25.0dip"
+            android:layout_marginRight="25.0dip"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/top_layout_dial"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:background="@drawable/style_for_button">
+
+                <RelativeLayout
+                    android:id="@+id/layout1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="25.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginRight="10.0dip" />
+
+                <RelativeLayout
+                    android:id="@+id/layout2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layout1"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        ads:srcCompat="@drawable/emoji" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="15.0dip"
+                    android:layout_below="@+id/layout2"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginRight="10.0dip" />
+
+                <RelativeLayout
+                    android:id="@+id/layout4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layout3"
+                    android:layout_margin="10.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/network_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/detected_carrier_start"
+                        android:textColor="#ff5a5a5a"
+                        android:textSize="18.0sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layout4"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/number_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="#ff5a5a5a"
+                        android:textSize="29.0sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layout5"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="4.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tour_card_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/your_pin_no"
+                        android:textColor="#ffbfbfbf"
+                        android:textSize="11.0dip"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layout6"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="25.0dip"
+                    android:layout_marginRight="10.0dip">
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dip"
+                        android:background="#fff2f2f2" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:layout_below="@+id/layout7"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginRight="10.0dip">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="10.0">
+
+                        <LinearLayout
+                            android:id="@+id/retry_layout"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="2.7"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/retry_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="3.0dip"
+                                android:text="Retry"
+                                android:textColor="#ff5b94fc"
+                                android:textSize="17.0dip"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="4.6"
+                            android:gravity="center">
+
+                            <View
+                                android:layout_width="1.0dip"
+                                android:layout_height="fill_parent"
+                                android:layout_marginTop="5.0dip"
+                                android:background="#fff2f2f2" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/dial_now_layout"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="2.7"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/confirm_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="3.0dip"
+                                android:text="Dial Now"
+                                android:textColor="#ff5b94fc"
+                                android:textSize="17.0dip"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:background="#fff">
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adbannerView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="@string/admob_banner_unit_id" >
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

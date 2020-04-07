@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Easy Recharge</string>
+
+    <string name="admob_app_id">ca-app-pub-8063161181163315~6950795235</string>
+    <string name="admob_banner_unit_id">ca-app-pub-8063161181163315/2819978535</string>
+    <string name="admob_interstitial_unit_id">ca-app-pub-8063161181163315/8782751653</string>
+
+    <string name="txt_message">No Text Available</string>
+    <string name="success">Success</string>
+    <string name="detected_carrier_start">We detected your pin as</string>
+    <string name="your_pin_no">YOUR PIN NUMBER</string>
+    <string name="carrier_select_text">"You are too"</string>
+</resources>
